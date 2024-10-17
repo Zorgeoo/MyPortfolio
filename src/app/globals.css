@@ -24,4 +24,19 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .card-wrapper {
+    @apply relative bg-gradient-to-b from-slate-700 to-slate-800 rounded-2xl overflow-hidden;
+  }
+  .card-wrapper::before {
+    background: conic-gradient(
+      rgb(170, 37, 105) 0deg,
+      rgb(208, 4, 235) 0deg,
+      transparent 100deg
+    );
+
+    @apply absolute left-[-25%] top-[-25%] h-[150%] w-[150%] animate-border-spin content-[''];
+  }
+  .card-content {
+    @apply absolute w-[calc(100%-4px)] h-[calc(100%-4px)] bg-gradient-to-b top-[2px] left-[2px] from-slate-800 to-slate-900 rounded-2xl;
+  }
 }
