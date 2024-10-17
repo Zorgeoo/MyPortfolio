@@ -1,6 +1,8 @@
 import MyInfo from "@/components/myInfo";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
+import HoverScrollName from "@/components/test";
+import HoverName from "@/components/test";
 
 export default function Home() {
   return (
@@ -8,6 +10,7 @@ export default function Home() {
       <MyInfo />
       <Skills />
       <Projects />
+      <HoverScrollName />
     </div>
   );
 }

@@ -6,7 +6,10 @@ const MyInfo = () => {
       <div className="flex justify-between">
         <div className="flex flex-col gap-4">
           <div>
-            <div className="text-4xl font-bold ">Э.Энхзориг</div>
+            <div className="text-4xl font-bold">
+              <div>Э.Энхзориг</div>
+              <div>Зоригоо</div>
+            </div>
             <div>Front-end Developer</div>
           </div>
           <div>Love to build</div>
