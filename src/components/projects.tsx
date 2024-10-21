@@ -10,8 +10,8 @@ const Projects = () => {
       <div>
         <div className="font-bold text-4xl">Projects</div>
         <div className="flex flex-col gap-10">
-          <div className="flex flex-1 border">
-            <div className="w-1/2 flex flex-col justify-between">
+          <div className="flex relative border justify-end">
+            <div className="absolute left-0 w-1/2 flex flex-col justify-between h-full">
               <div className="font-bold text-xl">Expense Tracker</div>
               <div>Description</div>
               <div className="flex gap-4">
@@ -36,12 +36,12 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative w-1/2 h-64">
+            <div className="relative w-2/3 h-64">
               <Image
                 src={"/Expense.png"}
                 alt="No image"
                 fill
-                className="absolute -z-10"
+                className="object-cover -z-10"
               />
             </div>
           </div>

@@ -8,7 +8,7 @@ const MyInfo = () => {
   return (
     <div className="py-12">
       <div className="flex justify-between">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col justify-between">
           <div>
             <div className="h-10 w-fit overflow-hidden">
               <div
@@ -22,7 +22,7 @@ const MyInfo = () => {
                 <div>Зоригоо</div>
               </div>
             </div>
-            <div>Front-end Developer</div>
+            <div className="font-semibold">Front-end Developer</div>
           </div>
           <div>Love to build</div>
         </div>
